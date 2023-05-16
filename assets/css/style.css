@@ -252,7 +252,7 @@ width: 50%;
 
 /*
 
-Commandes
+partie Commandes !
 
 */
 
@@ -349,7 +349,7 @@ Commandes
 
 /*
 
-Partie contact
+Partie contact !
 
 */
 
@@ -381,7 +381,7 @@ input[type="submit"] {
 
 /*
 
-Page FAQ
+Partie FAQ !
 
 */
 
@@ -405,68 +405,7 @@ Partie Mobile "responsive" !
 
 */
 
-/*
-@media all and (max-width: 900px) {
-  
-  body {
-  width: 50px;
-  }
-  p {
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-      font-size: 150px;
-      display: flex;
-      text-align: center;
-      flex-direction: column;
-  }
-  .main-menu {
-      color: rgb(253, 253, 253);
-      font-size: 45px;
-      width: 50%;
-      background-color: #3c383d;
-      list-style-type: none;
-      display: flex;
-      justify-content: space-around;
-      justify-content: space-between;
-      justify-content: center;
-      gap: 0.3rem;
-    }
-
-    .titre1 {
-      color: rgb(253, 253, 253);
-      font-size: 45px;
-    }
-
-
-    .section1 {
-      margin: 3em 5em;
-      height: auto;
-      width: auto;
-      color: rgb(253, 253, 253);
-      font-size: 45px;
-      background-color: #3c383d;
-      list-style-type: none;
-      display: flex;
-      justify-content: center;
-      gap: 0.3rem;
-      flex-direction: column;
-    }
-
-    .footer {
-      height: auto;
-      width: auto;
-      font-size: 45px;
-      display: flex;
-      justify-content: center;
-      list-style-type: none;
-    }
-
-}
-
-*/
-
-
-/* Styles pour les écrans de petite taille */
+/* Styles pour les écrans < 600px */
 @media only screen and (max-width: 600px) {
   body {
     padding: 10px;
@@ -478,25 +417,5 @@ Partie Mobile "responsive" !
   }
   nav li {
     margin: 5px 0;
-  }
-}
-
-/* Styles pour les écrans de taille moyenne */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  body {
-    padding: 30px;
-  }
-  nav ul {
-    justify-content: center;
-  }
-}
-
-/* Styles pour les écrans de grande taille */
-@media only screen and (min-width: 1025px) {
-  body {
-    padding: 50px;
-  }
-  nav ul {
-    justify-content: flex-end;
   }
 }
