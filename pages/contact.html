@@ -35,21 +35,29 @@
             </p>
 
             <!-- section 1 -->
+            <div class="pform">
+                <p>
+                    Pour me contacter, voici un formulaire.
+                    <br>
+                    Merci.
+                </p>
+            </div>
+
             <div class="content">
                     <div class="section1">
-                        <p>
-                            Pour me contacter, voici un formulaire de contact. Merci.
-                        </p>
                         <form action="#" method="post">
                             <label for="name">Nom :</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" name="name" required placeholder="Nom">
                         
                             <label for="email">Email :</label>
-                            <input type="text" id="email" name="email" required>
+                            <input type="text" name="email" required placeholder="Prénom">
                         
                             <label for="message">Message :</label>
-                            <textarea id="message" name="message" required></textarea>
+                            <textarea name="message" required placeholder="Votre message sous forme de texte"></textarea>
                         
+                            <label class="labelfile" for="myfile">Joindre un fichier:</label>
+                            <input type="file" name="myfile">
+
                             <input type="submit" value="Envoyer">
                           </form>
                     </div>
@@ -62,7 +70,7 @@
             <iframe width="750" height="400" src="https://www.youtube.com/embed/2O8pkybH6po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
             </iframe>
                 <p> 
-                    Exemple de vidéo tuto tiré de Youtube. "Comment créer un bot discord en Python".
+                    Exemple de vidéo tuto tiré de Youtube. "Apprendre les formulaires HTML en 8 minutes".
                 </p>
         </div>
 
