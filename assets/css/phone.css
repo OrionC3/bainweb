@@ -77,6 +77,7 @@ body {
   
   .content .section1 img {
     margin: 15px;
+    width: 90%;
   }
 
   .content .section1 p {
@@ -85,7 +86,30 @@ body {
     margin-top: 20px;
   }
 
+  .content .section2 {
+    background-color: #3c383d;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+  }
 
+  .content .section12 {
+    background-color: #3c383d;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  
+  .content .section2 img {
+    margin: 15px;
+    width: 90%;
+  }
+
+  .content .section2 p {
+    width: 100%;
+    margin: 5px;
+    margin-top: 20px;
+  }
 
   .footer {
     background-color: rgb(45, 58, 70);
@@ -211,7 +235,7 @@ Partie contact !
   }
   
   form {
-    width: 30%;
+    width: 100%;
   }
   
   label {
@@ -229,9 +253,11 @@ Partie contact !
     padding: 10px;
     margin-bottom: 20px;
   }
+
   textarea {
     height: 120px;
   }
+
   input[type="submit"] {
     background-color: #333;
     color: #fff;
